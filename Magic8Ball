@@ -1,8 +1,8 @@
 import random
 print("What is your name?")
-name = input()
+name = raw_input()
 print("What is your question?")
-question = input()
+question = raw_input()
 
 answer = ""
 random_number = random.randint(1,10)
